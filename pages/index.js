@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
+import Link from 'next/link'
 import Header from '@/components/header'
 import faber from "@/assets/faber.png"
 import julia from "@/assets/julia.png"
@@ -64,6 +65,7 @@ export default function Home() {
       </section>
 
 
+      {/* WHY YOU NEED HEALTHCARERIP */}
       <section className=' border px-4 py-8 border-green-900 w-full '>
 
         <h3 className='text-center'>Latest Tips</h3>
@@ -83,6 +85,26 @@ export default function Home() {
           <div className='border border-gray-300 w-2/4 m-2.5 md:w-[340px]'>
             <Image src={julia} alt="healthworker" width="350px" height="300px" />
             <p>Pets and Care</p>
+          </div>
+        </div>
+
+      </section>
+
+      {/* WHY YOU NEED HEALTHCARERIP */}
+      <section className=' border px-4 py-8 border-green-900 w-full '>
+
+        <div className='flex flex-col items-center justify-center border border-gray-300 m md:flex-row sm:p-14 '>
+          <ul className='border border-gray-300 w-[90%] p-4 m-2.5  md:w-[30%]'>
+            <li><Link href="/about">Help Center</Link></li>
+            <li><Link href="/about">Help Center</Link></li>
+            <li><Link href="/about">Help Center</Link></li>
+            <li><Link href="/about">Help Center</Link></li>
+          </ul>
+          <div className='border border-gray-300 w-[90%] p-4 m-2.5  md:w-[30%]'>
+            Accurate predictions Tracking your periods and ovulation with Flo can help you calculate and predict symptoms ahead of time, getting y ou prepared for the days ahead.
+          </div>
+          <div className='border border-gray-300 w-[90%] p-4 m-2.5  md:w-[30%]'>
+            Accurate predictions Tracking your periods and ovulation with Flo can help you calculate and predict symptoms ahead of time, getting y ou prepared for the days ahead.
           </div>
         </div>
 
