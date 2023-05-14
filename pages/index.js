@@ -1,15 +1,28 @@
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import { Inter, Roboto_Mono } from 'next/font/google';
 import Link from 'next/link'
 import Header from '@/components/header'
 import faber from "@/assets/faber.png"
 import julia from "@/assets/julia.png"
 
-const inter = Inter({ subsets: ['latin'] })
+
+ 
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+});
+ 
+const roboto_mono = Roboto_Mono({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-roboto-mono',
+});
 
 export default function Home() {
   return (
-    <main className={` min-h-screen   font-mono font-bold border border-red-800 mt-20 ${inter.className}`}>
+    <main className={` min-h-screen   font-mono font-bold border border-red-800 mt-20`}>
+   {/* <main className={` min-h-screen   font-mono font-bold border border-red-800 mt-20 ${inter.variable} ${roboto_mono.variable}`}> */}
       <Header />
 
       {/* FIRST SECTION AFTER HEEADER */}
