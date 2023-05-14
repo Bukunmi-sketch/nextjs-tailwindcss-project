@@ -2,6 +2,10 @@ import Image from 'next/image'
 import { Inter, Roboto_Mono } from 'next/font/google';
 import Link from 'next/link'
 import Header from '@/components/header'
+import nurse from "@/assets/nurse.png"
+import runner from "@/assets/runner.png"
+import kids from "@/assets/kids.png"
+import animals from "@/assets/animals.png"
 import faber from "@/assets/faber.png"
 import julia from "@/assets/julia.png"
 
@@ -40,7 +44,7 @@ export default function Home() {
 
         </div>
 
-        <button className='bg-pink-200 hover:bg-gray-400 text-gray-800 font-bold py-2 px-12 rounded shadow-xl'>Try for free</button>
+        <button className='bg-pink-200 hover:bg-gray-400 text-gray-800 font-bold py-2 px-12 rounded shadow-md'>Try for free</button>
       </section>
 
       {/* HUNDREDS OF HEALTH PROFESSIONALS */}
@@ -48,7 +52,7 @@ export default function Home() {
       <section className='flex flex-col mx-auto items-center justify-center border px-4 py-16 border-green-900 w-full md:flex-row  p-14'>
 
         <div className='border border-gray-300 w-2/4 m-2.5 rounded-xl md:w-[340px]'>
-          <Image src={faber} alt="healthworker" width="350px" height="300px" className='rounded-xl shadow-xl'/>
+          <Image src={nurse} alt="healthworker" width="350px" height="300px" className='rounded-xl shadow-xl'/>
         </div>
         <div className='border border-gray-300 w-2/4 m-2.5 rounded-xl shadow-xl md:w-[340px]'>
           <Image src={julia} alt="healthworker" width="350px" height="300px" className='rounded-xl shadow-xl'/>
@@ -84,17 +88,17 @@ export default function Home() {
         <div className='flex flex-col items-center justify-center border border-gray-300 m md:flex-row sm:p-14 '>
 
           <div className='flex flex-col jusitfy-center items-center border border-gray-300 w-2/4 h-[350px] m-2.5 md:w-[340px]'>
-            <Image src={faber} alt="healthworker" width="350px" height="200px" className='rounded-xl shadow-xl h-[70%]'/>
+            <Image src={runner} alt="healthworker" width="350px" height="200px" className='rounded-xl shadow-xl h-[70%]'/>
             <p className='m-12'>Women Health</p>
           </div>
 
           <div className='flex flex-col jusitfy-center items-center border border-gray-300 w-2/4 h-[350px] m-2.5 md:w-[340px]'>
-            <Image src={faber} alt="healthworker" width="350px" height="200px" className='rounded-xl shadow-xl h-[70%]'/>
+            <Image src={kids} alt="healthworker" width="350px" height="200px" className='rounded-xl shadow-xl h-[70%]'/>
             <p className='m-12'>Diseases and Precautions</p>
           </div>
 
           <div className='flex flex-col jusitfy-center items-center border border-gray-300 w-2/4 h-[350px] m-2.5 md:w-[340px]'>
-            <Image src={faber} alt="healthworker" width="350px" height="200px" className='rounded-xl shadow-xl h-[70%]'/>
+            <Image src={animals} alt="healthworker" width="350px" height="200px" className='rounded-xl shadow-xl h-[70%]'/>
             <p className='m-12'>Pets and Care</p>
           </div>
         </div>

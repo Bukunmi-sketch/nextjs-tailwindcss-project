@@ -17,7 +17,7 @@ function register() {
     return (
         <>
             <Header />
-            <main className={`min-h-screen flex flex-col justify-center font-bold border border-red-800 md:mt-20 `}>
+            <main className={`min-h-screen flex flex-col justify-center font-bold border border-red-800 md:mt-20 md:flex-row `}>
 
 
                 <div className='flex flex-col items-center h w-[40%] bg-blue-200 m-2.5  '>
