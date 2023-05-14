@@ -9,9 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main
-      className={` min-h-screen   font-mono font-bold border border-red-800 mt-20 ${inter.className}`}
-    >
+    <main className={` min-h-screen   font-mono font-bold border border-red-800 mt-20 ${inter.className}`}>
       <Header />
 
       {/* FIRST SECTION AFTER HEEADER */}
@@ -36,11 +34,11 @@ export default function Home() {
 
       <section className='flex flex-col mx-auto items-center justify-center border px-4 py-16 border-green-900 w-full md:flex-row  p-14'>
 
-        <div className='border border-gray-300 w-2/4 m-2.5 md:w-[340px]'>
-          <Image src={faber} alt="healthworker" width="350px" height="300px" />
+        <div className='border border-gray-300 w-2/4 m-2.5 rounded-xl md:w-[340px]'>
+          <Image src={faber} alt="healthworker" width="350px" height="300px" className='rounded-xl shadow-xl'/>
         </div>
-        <div className='border border-gray-300 w-2/4 m-2.5 md:w-[340px]'>
-          <Image src={julia} alt="healthworker" width="350px" height="300px" />
+        <div className='border border-gray-300 w-2/4 m-2.5 rounded-xl shadow-xl md:w-[340px]'>
+          <Image src={julia} alt="healthworker" width="350px" height="300px" className='rounded-xl shadow-xl'/>
         </div>
 
       </section>
@@ -72,19 +70,19 @@ export default function Home() {
 
         <div className='flex flex-col items-center justify-center border border-gray-300 m md:flex-row sm:p-14 '>
 
-          <div className='border border-gray-300 w-2/4 m-2.5 md:w-[340px]'>
-            <Image src={faber} alt="healthworker" width="350px" height="300px" />
-            <p>Women Health</p>
+          <div className='flex flex-col jusitfy-center items-center border border-gray-300 w-2/4 h-[350px] m-2.5 md:w-[340px]'>
+            <Image src={faber} alt="healthworker" width="350px" height="200px" className='rounded-xl shadow-xl h-[70%]'/>
+            <p className='m-12'>Women Health</p>
           </div>
 
-          <div className='border border-gray-300 w-2/4 m-2.5 md:w-[340px]'>
-            <Image src={julia} alt="healthworker" width="350px" height="300px" />
-            <p>Disease and Precautions</p>
+          <div className='flex flex-col jusitfy-center items-center border border-gray-300 w-2/4 h-[350px] m-2.5 md:w-[340px]'>
+            <Image src={faber} alt="healthworker" width="350px" height="200px" className='rounded-xl shadow-xl h-[70%]'/>
+            <p className='m-12'>Diseases and Precautions</p>
           </div>
 
-          <div className='border border-gray-300 w-2/4 m-2.5 md:w-[340px]'>
-            <Image src={julia} alt="healthworker" width="350px" height="300px" />
-            <p>Pets and Care</p>
+          <div className='flex flex-col jusitfy-center items-center border border-gray-300 w-2/4 h-[350px] m-2.5 md:w-[340px]'>
+            <Image src={faber} alt="healthworker" width="350px" height="200px" className='rounded-xl shadow-xl h-[70%]'/>
+            <p className='m-12'>Pets and Care</p>
           </div>
         </div>
 
