@@ -4,7 +4,7 @@ import Link from 'next/link'
 function Header() {
   return (
     <div
-    className="top-0 text-base bg font-bold text-black-800 text-center bg-cyan-300 h-16 border w-full flex justify-around items-center fixed z-100">
+    className="top-0 text-base bg font-bold text-black-800 text-center bg-cyan-300 h-16 border w-full flex justify-around items-center fixed z-40">
     <h1 > Pcare </h1>
 
     <div className="invisible lg:visible flex border border-gray-300 justify-around items-center w-7/12 h-full ">
