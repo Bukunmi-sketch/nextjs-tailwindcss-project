@@ -67,7 +67,7 @@ function register() {
                             </div>
 
                             <div className='flex flex-col  mb-10 flex-1 '>
-                                <button className='bg-black text-white py-4 px-4 border border-solid border-black rounded-lg'><Link href="/step2">Continue </Link></button>
+                                <button className='bg-black text-white text-xl py-4 px-4 border border-solid border-black rounded-lg'><Link href="/step2">Continue </Link></button>
                             </div>
 
 

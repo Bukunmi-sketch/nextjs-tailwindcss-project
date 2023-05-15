@@ -6,6 +6,7 @@ import nurse from "@/assets/nurse.png"
 import runner from "@/assets/runner.png"
 import kids from "@/assets/kids.png"
 import animals from "@/assets/animals.png"
+import textimage from "@/assets/textimage.png"
 import faber from "@/assets/faber.png"
 import julia from "@/assets/julia.png"
 
@@ -55,7 +56,7 @@ export default function Home() {
           <Image src={nurse} alt="healthworker" width="350px" height="300px" className='rounded-xl shadow-xl'/>
         </div>
         <div className='border border-gray-300 w-2/4 m-2.5 rounded-xl shadow-xl md:w-[340px]'>
-          <Image src={julia} alt="healthworker" width="350px" height="300px" className='rounded-xl shadow-xl'/>
+          <Image src={textimage} alt="healthworker" width="350px" height="300px" className='rounded-xl shadow-xl'/>
         </div>
 
       </section>

@@ -28,18 +28,23 @@ function Step2() {
                 <section className="flex flex-col items-center border-2 border-dashed border-yellow-800  md:flex-row md:w-[70%] ">
                     {/* FIRST BOX */}
                     <div className='flex flex-col items-center h-full  bg-blue-200 m-2.5 md:w-[50%] '>
-                        <h3 className='mt-3'>Create a New Account</h3>
+                        
 
                         <div className='flex flex-col border border-green-800 p-12 w-full'>
-                            
-                            <div className='flex flex-col  mb-10 flex-1 '>
-                                <h3 className='text-2xl'>Date of birth</h3>
 
-                                <p>This will not be shown publicly. Confirm your own age, even if this account is for a business, a pet, or something else.</p>
+                        <h3 className=' mt-[50px] text-center text-xl'>Customize your experience </h3>
+                            
+                            <div className='flex flex-col  mt-[120px] flex-1 '>
+                                <h3 className='text-3xl'>We put all the tips in your hands</h3>
                             </div>
 
-                            <div className='flex flex-col  mb-10 flex-1 '>
-                                <button className='bg-black text-white py-4 px-4 border border-solid border-black rounded-lg'><Link href="/step2">Continue </Link></button>
+                            <div className='flex flex-col  mt-[80px] flex-1 '>
+                                <p className='text-xl'>Twitter uses this data to personalize your experience. This web browsing history will never be stored with your name, email, or phone number.</p>
+                            </div>
+
+
+                            <div className='flex flex-col  mt-[120px] flex-1 '>
+                                <button className='bg-black text-white text-xl py-4 px-4 border border-solid border-black rounded-lg'><Link href="/username">Continue </Link></button>
                             </div>
 
 
