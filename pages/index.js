@@ -110,14 +110,14 @@ export default function Home() {
 
         <div className='flex flex-col items-center justify-center border border-gray-300 m md:flex-row sm:p-14 '>
           
-          <ul className='border border-gray-300 w-[90%] p-4 m-2.5  md:w-[30%]'>
+          <ul className='list-disc border border-gray-300 w-[90%] p-4 m-2.5  md:w-[30%]'>
           <div>Product</div>
             <li><Link href="/help">Help Center</Link></li>
             <li><Link href="/business">Flo for Business</Link></li>
             <li><Link href="/security">Security at Flo</Link></li>
             <li><Link href="/privacy">Privacy Portal</Link></li>
           </ul>
-          <ul className='border border-gray-300 w-[90%] p-4 m-2.5  md:w-[30%]'>
+          <ul className='list-disc border border-gray-300 w-[90%] p-4 m-2.5  md:w-[30%]'>
           <div>Company</div>
             <li><Link href="/about">About Us</Link></li>
             <li><Link href="/careers">Careers</Link></li>
@@ -125,7 +125,7 @@ export default function Home() {
             <li><Link href="/press">Press Center</Link></li>
             <li><Link href="/body">Your Body your story</Link></li>
           </ul>
-          <ul className='border border-gray-300 w-[90%] p-4 m-2.5  md:w-[30%]'>
+          <ul className='list-disc border border-gray-300 w-[90%] p-4 m-2.5  md:w-[30%]'>
           <div>Consent</div>
             <li><Link href="/health">Health Library</Link></li>
             <li><Link href="/editorial">Editorial Process and Standards</Link></li>
