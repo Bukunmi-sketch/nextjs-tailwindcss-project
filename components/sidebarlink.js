@@ -1,9 +1,22 @@
-import React from 'react'
-
 function Sidebarlink({ Icon, text, active }) {
   return (
-    <div>Sidebarlink</div>
+    <div className={`text-[#d9d9d9] flex items-center justify-center xl:justify-start text-xl space-x-3 hoverAnimation ${active && 'font-bold'}`}>
+      <Icon className='h-7 text-white' />
+      <span className="hidden xl:inline">{text}</span>
+      
+
+      
+    </div>
   )
 }
 
-export default Sidebarlink
+export default Sidebarlink;
+
+ {/*     <BeakerIcon className="h-6 w-6 text-white" />
+            <HomeIcon className="h-6 w-6 text-white" />
+            <BellIcon  className="h-6 w-6 text-white" />
+            <InboxIcon  className="h-6 w-6 text-white" />
+            <BookmarkIcon  className="h-6 w-6 text-white" />
+            <UserIcon  className="h-6 w-6 text-white" />
+        
+        */}

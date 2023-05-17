@@ -26,7 +26,7 @@ const roboto_mono = Roboto_Mono({
 
 export default function Home() {
   return (
-    <main className={` min-h-screen   font-mono font-bold border border-red-800 mt-20`}>
+    <main className={` min-h-screen   font-body font-bold border border-red-800 mt-20`}>
    {/* <main className={` min-h-screen   font-mono font-bold border border-red-800 mt-20 ${inter.variable} ${roboto_mono.variable}`}> */}
       <Header />
 

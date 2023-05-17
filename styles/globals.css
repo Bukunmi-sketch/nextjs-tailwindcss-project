@@ -17,7 +17,7 @@
 }
 
 html{
-  font-family: "DM sans",sans-serif;
+  /* font-family: "DM sans",sans-serif; */
 }
 
 body {
@@ -38,11 +38,10 @@ body {
     @apply bg-black;
   }
 }
-
+*/
 @layer components{
   .hoverAnimation{
     @apply hover:bg-[#d9d9d9] hover:bg-opacity-10 rounded-full cursor-pointer w-[542px] h-[52px] xl:w-auto xl:h-auto xl:py-3 xl:px-4 transition duration-200 ease-out;
   }
 }
 
-*/

@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-const { fontFamily } = require('tailwindcss/defaultTheme')
+//const { fontFamily } = require('tailwindcss/defaultTheme')
 
 module.exports = {
   content: [
@@ -14,13 +14,14 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
-      /* fontFamily: {
-        "Josefin": ["Josefin Sans", ...fontFamily.sans],
-      },*/
-      fontFamily: {
+       fontFamily: {
+        body: ["DM Sans"],
+      },
+   /*   fontFamily: {
         sans: ['var(--font-inter)'],
         mono: ['var(--font-roboto-mono)'],
-      },
+      }, 
+      */
     },
   },
   plugins: [],
