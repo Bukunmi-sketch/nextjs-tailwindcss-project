@@ -22,8 +22,8 @@ const roboto_mono = Roboto_Mono({
 function Home() {
     return (
         <>
-            <Homeheader />
-            <main className={`bg-black min-h-screen flex  max-w-[1500px] mx-auto `}>
+            {/* <Homeheader /> */}
+            <main className={`bg-black min-h-screen flex text-white  max-w-[1500px] mx-auto `}>
                <Sidebar />
                    {/* SIDEBAR */}
                 
