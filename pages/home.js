@@ -1,6 +1,7 @@
 import { Inter, Roboto_Mono } from 'next/font/google';
 import Homeheader from '@/components/homeheader'
 import Sidebar from '@/components/sidebar';
+import Feeds from '@/components/feeds';
 import Sidebarlink from '@/components/sidebarlink';
 import Image from 'next/image'
 import Link from 'next/link'
@@ -25,7 +26,7 @@ function Home() {
             {/* <Homeheader /> */}
             <main className={`bg-black min-h-screen flex text-white  max-w-[1500px] mx-auto `}>
                <Sidebar />
-                   {/* SIDEBAR */}
+               <Feeds />
                 
 
                 {/* -----------------------------------END OF CONTAINER -------------------------------- */}

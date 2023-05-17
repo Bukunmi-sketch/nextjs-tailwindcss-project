@@ -18,8 +18,9 @@ function Sidebar() {
                 <Sidebarlink text="Bookmarks" Icon={BookmarkIcon}  />
                 <Sidebarlink text="Profile" Icon={UserIcon}  />
                 <Sidebarlink text="Lists" Icon={ClipboardIcon}  />
+                <button className='hidden xl:inline ml-auto bg-[#1d9bf0] text-white rounded-full w-56 h-[52px] text-lg font-bold shadow-md hover:bg-[#1a8cd8] text-center'>Tweet</button>
             </div>
-        <button className='hidden xl:inline m-auto bg-[#1d9bf0] text-white rounded-full w-56 h-[52px] text-lg font-bold shadow-md hover:bg-[#1a8cd8] text-center'>Tweet</button>
+      
         </div>
     )
 }
