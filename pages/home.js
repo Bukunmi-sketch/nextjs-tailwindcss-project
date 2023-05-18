@@ -9,6 +9,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import nurse from "@/assets/nurse.png"
 import rainbow from "@/assets/rainbow.png"
+import Modal from '@/components/Modal';
 //import {getProviders, getSession, useSession } from "next-auth/react";
 
 const inter = Inter({
@@ -35,7 +36,7 @@ if(!session) return <Login />
             <main className={`bg-black min-h-screen flex text-white  max-w-[1500px] mx-auto `}>
                <Sidebar />
                <Feeds />
-                
+                <Modal/>
 
                 {/* -----------------------------------END OF CONTAINER -------------------------------- */}
             </main>
@@ -45,7 +46,7 @@ if(!session) return <Login />
 
 export default Home;
 
-
+/*
 export async function getServerSideProps(context){
     const trendingResults =await fetch("https://api/...").then( (res) => res.json()
     );
@@ -65,3 +66,4 @@ export async function getServerSideProps(context){
    }
 
 }
+*/
